@@ -4,7 +4,7 @@
 
 @if ERRORLEVEL 1 goto end
 
-@cd ..\packages\SpecRun.Runner.*\tools
+@cd ..\..\packages\SpecRun.Runner.*\tools
 
 @set profile=%1
 @if "%profile%" == "" set profile=Default

@@ -1,0 +1,67 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\FrakWorx2SpecFlow.SpecFlow.dll
+Appdomain Disposed
+Test Suite Dump
+#0: FrakWorx2SpecFlow.SpecFlow/Default - 
+#1: Default - 
+#2: FrakWorx2SpecFlow.SpecFlow - 
+#3: Login - 
+#6: NavigateHomePage - 
+#4: Login to frakworx2, valid - TestAssembly:FrakWorx2SpecFlow.SpecFlow/Feature:Login/Scenario:Login+to+frakworx2%2c+valid
+#5: Login to frakworx2, invalid - TestAssembly:FrakWorx2SpecFlow.SpecFlow/Feature:Login/Scenario:Login+to+frakworx2%2c+invalid
+#7: View profile - TestAssembly:FrakWorx2SpecFlow.SpecFlow/Feature:NavigateHomePage/Scenario:View+profile
+#8: View reports - TestAssembly:FrakWorx2SpecFlow.SpecFlow/Feature:NavigateHomePage/Scenario:View+reports
+End: Test Suite Dump -- X
+Scheduler: considering #4 for thread #0
+Scheduler: using #4 for thread #0
+Test #4 is scheduled for thread #0
+Thread #0: creating new test thread executor for FrakWorx2SpecFlow.SpecFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\packages\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #4/0 is started on thread #0
+B:Given I am at the login page
+T:done: LoginSteps.GivenIAmAtTheLoginPage() (1.0s)
+B:When I login with 'valid' credentials
+T:done: LoginSteps.WhenILoginWithCredentials("valid") (0.9s)
+B:Then I should be 'successfully' logged into the program
+T:done: LoginSteps.ThenIShouldBeLoggedIntoTheProgram("successfully") (0.2s)
+Scheduler: considering #5 for thread #0
+Scheduler: using #5 for thread #0
+Test #5 is scheduled for thread #0
+Test #4 is finished on thread #0 as Succeeded within 4.2261288 seconds
+Test #5/0 is started on thread #0
+B:Given I am at the login page
+T:done: LoginSteps.GivenIAmAtTheLoginPage() (1.0s)
+B:When I login with 'invalid' credentials
+T:done: LoginSteps.WhenILoginWithCredentials("invalid") (0.3s)
+B:Then I should be 'unsuccessfully' logged into the program
+T:done: LoginSteps.ThenIShouldBeLoggedIntoTheProgram("unsuccessfully") (0.1s)
+Scheduler: considering #7 for thread #0
+Scheduler: using #7 for thread #0
+Test #7 is scheduled for thread #0
+Test #5 is finished on thread #0 as Succeeded within 2.6582645 seconds
+Test #7/0 is started on thread #0
+B:Given I am on the home page
+T:done: NavigateHomePageSteps.GivenIAmOnTheHomePage() (0.2s)
+B:When I click the 'My Profile' button
+T:done: NavigateHomePageSteps.WhenIClickTheMyProfileButton("My Profile") (0.2s)
+B:Then I should see the 'my profile' page
+T:done: NavigateHomePageSteps.ThenIShouldSeeMyProfile("my profile") (0.0s)
+Scheduler: considering #8 for thread #0
+Scheduler: using #8 for thread #0
+Test #8 is scheduled for thread #0
+Test #7 is finished on thread #0 as Succeeded within 3.6491587 seconds
+Test #8/0 is started on thread #0
+B:Given I am on the home page
+T:done: NavigateHomePageSteps.GivenIAmOnTheHomePage() (0.2s)
+B:When I click the 'Reports' button
+T:done: NavigateHomePageSteps.WhenIClickTheMyProfileButton("Reports") (0.2s)
+B:Then I should see the 'reports' page
+T:done: NavigateHomePageSteps.ThenIShouldSeeMyProfile("reports") (0.0s)
+Test #8 is finished on thread #0 as Succeeded within 3.6266008 seconds
+Appdomain Disposed
+Total: 4
+Succeeded: 4
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

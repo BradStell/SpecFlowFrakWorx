@@ -1,11 +1,16 @@
+C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\chromedriver.exe
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\Default.srprofile
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\FrakWorx2SpecFlow.SpecFlow.dll.config
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\FrakWorx2SpecFlow.SpecFlow.dll
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\FrakWorx2SpecFlow.SpecFlow.pdb
-C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\SpecRun.SpecFlowPlugin.dll
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\TechTalk.SpecFlow.dll
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\TechTalk.SpecRun.dll
+C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\WebDriver.dll
+C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\WebDriver.Support.dll
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\SpecRun.SpecFlowPlugin.pdb
+C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\WebDriver.xml
+C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\bin\Debug\WebDriver.Support.xml
+C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\obj\Debug\FrakWorx2SpecFlow.SpecFlow.csprojResolveAssemblyReference.cache
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\obj\Debug\FrakWorx2SpecFlow.SpecFlow.dll
 C:\Users\User\Programming\FrakWorx\FrakWorx2SpecFlow\FrakWorx2SpecFlow\FrakWorx2SpecFlow.SpecFlow\obj\Debug\FrakWorx2SpecFlow.SpecFlow.pdb

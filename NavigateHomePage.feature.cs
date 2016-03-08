@@ -18,7 +18,7 @@ namespace FrakWorx2SpecFlow.SpecFlow
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("NavigateHomePage", Description="\tIn order to test funcionality of side bar navigation\r\n\tAs a user\r\n\tI want to ver" +
-        "ify the side bar navigation works", SourceFile="NavigateHomePage.feature", SourceLine=0)]
+        "ify the side bar navigation works", SourceFile="NavigateHomePage.feature", SourceLine=1)]
     public partial class NavigateHomePageFeature
     {
         
@@ -64,37 +64,55 @@ namespace FrakWorx2SpecFlow.SpecFlow
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("View profile", new string[] {
-                "profile"}, SourceLine=6)]
+                "profile"}, SourceLine=8)]
         public virtual void ViewProfile()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("View profile", new string[] {
                         "profile"});
-#line 7
-this.ScenarioSetup(scenarioInfo);
-#line 8
- testRunner.Given("I am on the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.When("I click the \'My Profile\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+this.ScenarioSetup(scenarioInfo);
 #line 10
+ testRunner.Given("I am on the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 11
+ testRunner.When("I click the \'My Profile\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 12
  testRunner.Then("I should see the \'my profile\' page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("View reports", new string[] {
-                "reports"}, SourceLine=12)]
+                "reports"}, SourceLine=15)]
         public virtual void ViewReports()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("View reports", new string[] {
                         "reports"});
-#line 13
-this.ScenarioSetup(scenarioInfo);
-#line 14
- testRunner.Given("I am on the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 15
- testRunner.When("I click the \'Reports\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 16
+this.ScenarioSetup(scenarioInfo);
+#line 17
+ testRunner.Given("I am on the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 18
+ testRunner.When("I click the \'Reports\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 19
  testRunner.Then("I should see the \'reports\' page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("View app users", new string[] {
+                "app-users"}, SourceLine=22)]
+        public virtual void ViewAppUsers()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("View app users", new string[] {
+                        "app-users"});
+#line 23
+this.ScenarioSetup(scenarioInfo);
+#line 24
+ testRunner.Given("I am on the home page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 25
+ testRunner.When("I click the \'Application Users\' button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 26
+ testRunner.Then("I should see the \'application users\' page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

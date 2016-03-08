@@ -18,7 +18,7 @@ namespace FrakWorx2SpecFlow.SpecFlow
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("Login", Description="\tIn order to verify the login process functions correctly\r\n\tAs a user\r\n\tI want to" +
-        " make sure the login process is working", SourceFile="Login.feature", SourceLine=0)]
+        " make sure the login process is working", SourceFile="Login.feature", SourceLine=2)]
     public partial class LoginFeature
     {
         
@@ -72,20 +72,20 @@ namespace FrakWorx2SpecFlow.SpecFlow
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login to frakworx2", @__tags);
-#line 7
+#line 12
 this.ScenarioSetup(scenarioInfo);
-#line 8
+#line 13
  testRunner.Given("I am at the login page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
+#line 14
  testRunner.When(string.Format("I login with \'{0}\' credentials", type), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 10
+#line 15
  testRunner.Then(string.Format("I should be \'{0}\' logged into the program", status), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Login to frakworx2, valid", new string[] {
-                "login"}, SourceLine=13)]
+                "login"}, SourceLine=18)]
         public virtual void LoginToFrakworx2_Valid()
         {
             this.LoginToFrakworx2("valid", "successfully", ((string[])(null)));
@@ -93,7 +93,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Login to frakworx2, invalid", new string[] {
-                "login"}, SourceLine=13)]
+                "login"}, SourceLine=18)]
         public virtual void LoginToFrakworx2_Invalid()
         {
             this.LoginToFrakworx2("invalid", "unsuccessfully", ((string[])(null)));

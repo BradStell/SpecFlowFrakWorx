@@ -4,8 +4,13 @@ using System;
 
 namespace FrakWorx2SpecFlow.SpecFlow
 {
+    /// <summary>
+    /// Login Page Object POM
+    /// Contains the id's for the UI elements & login page actions
+    /// </summary>
     class LoginPageObject
     {
+        // Init the POM with Seleniums inbuilt method
         public LoginPageObject()
         {
             PageFactory.InitElements(PropertiesCollection.driver, this);
@@ -33,8 +38,6 @@ namespace FrakWorx2SpecFlow.SpecFlow
         /// <summary>
         /// Login to frakworx application
         /// </summary>
-        /// <param name="username">the username to login with</param>
-        /// <param name="password">the password to login with</param>
         /// <returns>POM representing the main page of the SPA</returns>
         public MainPageObject ValidLogin()
         {
@@ -45,8 +48,14 @@ namespace FrakWorx2SpecFlow.SpecFlow
             return new MainPageObject();
         }
 
+        /// <summary>
+        /// Invalid login to frakworx application
+        /// </summary>
+        /// <returns>POM representing the main page of the SPA</returns>
         public MainPageObject InvalidLogin()
         {
+            // Invalid username and password, if someone has this username/password combo
+            // then this code needs to be changed, and something is wrong with this person
             UserNameTextBox.SendKeys("kkasdfj");
             PasswordTextBox.SendKeys("nlliasdk");
             LoginButton.Submit();

@@ -4,10 +4,13 @@ using OpenQA.Selenium.Chrome;
 
 namespace FrakWorx2SpecFlow.SpecFlow
 {
+    /// <summary>
+    /// Code that maps to the Login.feature file Gherkin code
+    /// </summary>
     [Binding]
     public class LoginSteps
     {
-        // POM for login page to frakworx
+        // Page Object Model's
         LoginPageObject loginPage;
         MainPageObject mainPage;
 
@@ -18,19 +21,17 @@ namespace FrakWorx2SpecFlow.SpecFlow
         [BeforeScenario("login")]
         public void SetupSelenium()
         {
+            // Create a new Chrome driver object for working with google chrome
             PropertiesCollection.driver = new ChromeDriver();
         }
 
-        [AfterScenario("login")]
-        public void CleanupSelenium()
-        {
-            // For some reason this crashes test with chrome not reachable error
-            //PropertiesCollection.driver.Close();
-        }
+        /////////////////////////////////////////////
+        ////  Code that maps to feature file    ////
 
         [Given(@"I am at the login page")]
         public void GivenIAmAtTheLoginPage()
         {
+            // Navigate to the login page
             PropertiesCollection.driver.NavigateToLoginPage();
             loginPage = new LoginPageObject();
         }
@@ -50,14 +51,16 @@ namespace FrakWorx2SpecFlow.SpecFlow
         [Then(@"I should be '(.*)' logged into the program")]
         public void ThenIShouldBeLoggedIntoTheProgram(string status)
         {
-            if (status.Equals("successfully"))
-                // Check for successfull login
+            // Check for successfull login
+            if (status.Equals("successfully"))                
                 mainPage.Verify();
+
+            // Check for unsuccessful login
             else if (status.Equals("unsuccessfully"))
-            {
-                // Check for unsuccessful login
                 loginPage.FindUsernameTextField();
-            }
+
+            // Close the driver after done with tests
+            PropertiesCollection.driver.Close();
         }
     }
 }
